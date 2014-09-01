@@ -1,0 +1,236 @@
+INFO  com.sirma.itt.javacourse.server.Helper  - 21:57:12: The client ivan is trying to connect.
+INFO  com.sirma.itt.javacourse.server.Helper  - 21:57:12: The client ivan has connected.
+INFO  com.sirma.itt.javacourse.server.Helper  - 16:13:30: The client ivan is trying to connect.
+INFO  com.sirma.itt.javacourse.server.Helper  - 16:13:30: The client ivan has connected.
+INFO  com.sirma.itt.javacourse.server.Helper  - 16:13:30<ivan>:kak e 
+INFO  com.sirma.itt.javacourse.server.Helper  - 16:13:30: The client toni[ is trying to connect.
+INFO  com.sirma.itt.javacourse.server.Helper  - 16:13:30:The client toni[ has disconnected.
+INFO  com.sirma.itt.javacourse.server.Helper  - 16:13:30: The client ivan is trying to connect.
+INFO  com.sirma.itt.javacourse.server.Helper  - 16:13:30:The client ivan has disconnected.
+INFO  com.sirma.itt.javacourse.server.Helper  - 16:13:30: The client kiko is trying to connect.
+INFO  com.sirma.itt.javacourse.server.Helper  - 16:13:30: The client kiko has connected.
+INFO  com.sirma.itt.javacourse.server.Helper  - 16:13:30:The client kiko has disconnected.
+INFO  com.sirma.itt.javacourse.server.Helper  - 16:13:30: The client asdf[ is trying to connect.
+INFO  com.sirma.itt.javacourse.server.Helper  - 16:13:30:The client asdf[ has disconnected.
+INFO  com.sirma.itt.javacourse.server.Helper  - 16:13:30: The client asdf is trying to connect.
+INFO  com.sirma.itt.javacourse.server.Helper  - 16:13:30: The client asdf has connected.
+INFO  com.sirma.itt.javacourse.server.Helper  - 16:13:30Error occured with the client asdf
+INFO  com.sirma.itt.javacourse.server.Helper  - 16:13:30:The client asdf has disconnected.
+INFO  com.sirma.itt.javacourse.server.Helper  - 16:20:41: The client dsfadfa is trying to connect.
+INFO  com.sirma.itt.javacourse.server.Helper  - 16:20:41: The client dsfadfa has connected.
+INFO  com.sirma.itt.javacourse.server.Helper  - 16:20:41: The client ivan[ is trying to connect.
+INFO  com.sirma.itt.javacourse.server.Helper  - 16:20:41:The client ivan[ has disconnected.
+INFO  com.sirma.itt.javacourse.server.Helper  - 16:20:41: The client ivan is trying to connect.
+INFO  com.sirma.itt.javacourse.server.Helper  - 16:20:41: The client ivan has connected.
+INFO  com.sirma.itt.javacourse.server.Helper  - 16:20:41<dsfadfa>:kak e ? 
+INFO  com.sirma.itt.javacourse.server.Helper  - 16:20:41<dsfadfa>:dobre e 
+INFO  com.sirma.itt.javacourse.server.Helper  - 16:20:41:The client ivan has disconnected.
+INFO  com.sirma.itt.javacourse.server.Helper  - 16:20:41Error occured with the client dsfadfa
+INFO  com.sirma.itt.javacourse.server.Helper  - 16:20:41:The client dsfadfa has disconnected.
+INFO  com.sirma.itt.javacourse.server.Helper  - 16:20:41: The client tonci[ is trying to connect.
+INFO  com.sirma.itt.javacourse.server.Helper  - 16:20:41:The client tonci[ has disconnected.
+INFO  com.sirma.itt.javacourse.server.Helper  - 16:20:41: The client tonci is trying to connect.
+INFO  com.sirma.itt.javacourse.server.Helper  - 16:20:41: The client tonci has connected.
+INFO  com.sirma.itt.javacourse.server.Helper  - 16:20:41: The client tonci is trying to connect.
+INFO  com.sirma.itt.javacourse.server.Helper  - 16:20:41:The client tonci has disconnected.
+INFO  com.sirma.itt.javacourse.server.Helper  - 16:20:41: The client tonci[] is trying to connect.
+INFO  com.sirma.itt.javacourse.server.Helper  - 16:20:41:The client tonci[] has disconnected.
+INFO  com.sirma.itt.javacourse.server.Helper  - 16:20:41: The client tonc is trying to connect.
+INFO  com.sirma.itt.javacourse.server.Helper  - 16:20:41: The client tonc has connected.
+INFO  com.sirma.itt.javacourse.server.Helper  - 16:20:41Error occured with the client tonc
+INFO  com.sirma.itt.javacourse.server.Helper  - 16:20:41:The client tonc has disconnected.
+INFO  com.sirma.itt.javacourse.server.Helper  - 16:20:41Error occured with the client tonci
+INFO  com.sirma.itt.javacourse.server.Helper  - 16:20:41:The client tonci has disconnected.
+INFO  com.sirma.itt.javacourse.server.Helper  - 16:20:41: The client ivan is trying to connect.
+INFO  com.sirma.itt.javacourse.server.Helper  - 16:20:41: The client ivan has connected.
+INFO  com.sirma.itt.javacourse.server.Helper  - 16:20:41: The client asdf[ is trying to connect.
+INFO  com.sirma.itt.javacourse.server.Helper  - 16:20:41:The client asdf[ has disconnected.
+INFO  com.sirma.itt.javacourse.server.Helper  - 16:20:41: The client asdf][ is trying to connect.
+INFO  com.sirma.itt.javacourse.server.Helper  - 16:20:41:The client asdf][ has disconnected.
+INFO  com.sirma.itt.javacourse.server.Helper  - 16:20:41: The client asdf is trying to connect.
+INFO  com.sirma.itt.javacourse.server.Helper  - 16:20:41: The client asdf has connected.
+INFO  com.sirma.itt.javacourse.server.Helper  - 16:20:41<asdf>:kak e ? 
+INFO  com.sirma.itt.javacourse.server.Helper  - 16:20:41Error occured with the client ivan
+INFO  com.sirma.itt.javacourse.server.Helper  - 16:20:41:The client ivan has disconnected.
+INFO  com.sirma.itt.javacourse.server.Helper  - 16:20:41: The client asdf is trying to connect.
+INFO  com.sirma.itt.javacourse.server.Helper  - 16:20:41:The client asdf has disconnected.
+INFO  com.sirma.itt.javacourse.server.Helper  - 16:20:41: The client asdff is trying to connect.
+INFO  com.sirma.itt.javacourse.server.Helper  - 16:20:41: The client asdff has connected.
+INFO  com.sirma.itt.javacourse.server.Helper  - 16:20:41<asdff>:kake 
+INFO  com.sirma.itt.javacourse.server.Helper  - 16:20:41:The client asdf has disconnected.
+INFO  com.sirma.itt.javacourse.server.Helper  - 16:20:41Error occured with the client asdff
+INFO  com.sirma.itt.javacourse.server.Helper  - 16:20:41:The client asdff has disconnected.
+INFO  com.sirma.itt.javacourse.server.Helper  - 16:20:41: The client ivan is trying to connect.
+INFO  com.sirma.itt.javacourse.server.Helper  - 16:20:41: The client ivan has connected.
+INFO  com.sirma.itt.javacourse.server.Helper  - 16:20:41: The client ivan is trying to connect.
+INFO  com.sirma.itt.javacourse.server.Helper  - 16:20:41:The client ivan has disconnected.
+INFO  com.sirma.itt.javacourse.server.Helper  - 16:20:41: The client ivan2 is trying to connect.
+INFO  com.sirma.itt.javacourse.server.Helper  - 16:20:41: The client ivan2 has connected.
+INFO  com.sirma.itt.javacourse.server.Helper  - 16:20:41Error occured with the client ivan2
+INFO  com.sirma.itt.javacourse.server.Helper  - 16:20:41:The client ivan2 has disconnected.
+INFO  com.sirma.itt.javacourse.server.Helper  - 16:20:41<ivan>:asdfasdf
+INFO  com.sirma.itt.javacourse.server.Helper  - 16:20:41<ivan>:sdfasdfasdfasdfasdfa
+INFO  com.sirma.itt.javacourse.server.Helper  - 16:20:41Error occured with the client ivan
+INFO  com.sirma.itt.javacourse.server.Helper  - 16:20:41:The client ivan has disconnected.
+INFO  com.sirma.itt.javacourse.server.Helper  - 16:34:59: The client ivan is trying to connect.
+INFO  com.sirma.itt.javacourse.server.Helper  - 16:34:59: The client ivan has connected.
+INFO  com.sirma.itt.javacourse.server.Helper  - 16:34:59: The client ivan is trying to connect.
+INFO  com.sirma.itt.javacourse.server.Helper  - 16:34:59:The client ivan has disconnected.
+INFO  com.sirma.itt.javacourse.server.Helper  - 16:34:59: The client tno is trying to connect.
+INFO  com.sirma.itt.javacourse.server.Helper  - 16:34:59: The client tno has connected.
+INFO  com.sirma.itt.javacourse.server.Helper  - 16:34:59<tno>:asdfasdf
+INFO  com.sirma.itt.javacourse.server.Helper  - 16:34:59<ivan>:kake 
+INFO  com.sirma.itt.javacourse.server.Helper  - 16:34:59:The client ivan has disconnected.
+INFO  com.sirma.itt.javacourse.server.Helper  - 16:34:59Error occured with the client tno
+INFO  com.sirma.itt.javacourse.server.Helper  - 16:34:59:The client tno has disconnected.
+INFO  com.sirma.itt.javacourse.server.Helper  - 16:36:37: The client tino is trying to connect.
+INFO  com.sirma.itt.javacourse.server.Helper  - 16:36:37: The client tino has connected.
+INFO  com.sirma.itt.javacourse.server.Helper  - 16:36:37: The client tino is trying to connect.
+INFO  com.sirma.itt.javacourse.server.Helper  - 16:36:37:The client tino has disconnected.
+INFO  com.sirma.itt.javacourse.server.Helper  - 16:36:37: The client tino[] is trying to connect.
+INFO  com.sirma.itt.javacourse.server.Helper  - 16:36:37:The client tino[] has disconnected.
+INFO  com.sirma.itt.javacourse.server.Helper  - 16:36:37: The client tino2 is trying to connect.
+INFO  com.sirma.itt.javacourse.server.Helper  - 16:36:37: The client tino2 has connected.
+INFO  com.sirma.itt.javacourse.server.Helper  - 16:36:37<tino2>:kak e brat
+INFO  com.sirma.itt.javacourse.server.Helper  - 16:36:37<tino>:epa dobre e 
+INFO  com.sirma.itt.javacourse.server.Helper  - 16:36:37Error occured with the client tino
+INFO  com.sirma.itt.javacourse.server.Helper  - 16:36:37:The client tino has disconnected.
+INFO  com.sirma.itt.javacourse.server.Helper  - 16:36:37<tino2>:иванееее 
+INFO  com.sirma.itt.javacourse.server.Helper  - 16:36:37<tino2>:ще чокам 
+INFO  com.sirma.itt.javacourse.server.Helper  - 16:36:37Error occured with the client tino2
+INFO  com.sirma.itt.javacourse.server.Helper  - 16:36:37:The client tino2 has disconnected.
+INFO  com.sirma.itt.javacourse.server.Helper  - 16:41:15: The client tonci[ is trying to connect.
+INFO  com.sirma.itt.javacourse.server.Helper  - 16:41:15:The client tonci[ has disconnected.
+INFO  com.sirma.itt.javacourse.server.Helper  - 16:41:15: The client tonciivan is trying to connect.
+INFO  com.sirma.itt.javacourse.server.Helper  - 16:41:15: The client tonciivan has connected.
+INFO  com.sirma.itt.javacourse.server.Helper  - 16:41:15Error occured with the client tonciivan
+INFO  com.sirma.itt.javacourse.server.Helper  - 16:41:15:The client tonciivan has disconnected.
+INFO  com.sirma.itt.javacourse.server.Helper  - 16:41:15: The client didi is trying to connect.
+INFO  com.sirma.itt.javacourse.server.Helper  - 16:41:15: The client didi has connected.
+INFO  com.sirma.itt.javacourse.server.Helper  - 16:41:15Error occured with the client didi
+INFO  com.sirma.itt.javacourse.server.Helper  - 16:41:15:The client didi has disconnected.
+INFO  com.sirma.itt.javacourse.server.Helper  - 16:41:15: The client tonci is trying to connect.
+INFO  com.sirma.itt.javacourse.server.Helper  - 16:41:15: The client tonci has connected.
+INFO  com.sirma.itt.javacourse.server.Helper  - 16:41:15:The client tonci has disconnected.
+INFO  com.sirma.itt.javacourse.server.Helper  - 17:00:38: The client Writasdf is trying to connect.
+INFO  com.sirma.itt.javacourse.server.Helper  - 17:00:38: The client Writasdf has connected.
+INFO  com.sirma.itt.javacourse.server.Helper  - 17:00:38Error occured with the client Writasdf
+INFO  com.sirma.itt.javacourse.server.Helper  - 17:00:38:The client Writasdf has disconnected.
+INFO  com.sirma.itt.javacourse.server.Helper  - 17:11:38: The client sanko is trying to connect.
+INFO  com.sirma.itt.javacourse.server.Helper  - 17:11:38: The client sanko has connected.
+INFO  com.sirma.itt.javacourse.server.Helper  - 17:11:38<sanko>:Write your message.
+INFO  com.sirma.itt.javacourse.server.Helper  - 17:11:38<sanko>:kak e
+INFO  com.sirma.itt.javacourse.server.Helper  - 17:11:38: The client asfd is trying to connect.
+INFO  com.sirma.itt.javacourse.server.Helper  - 17:11:38: The client asfd has connected.
+INFO  com.sirma.itt.javacourse.server.Helper  - 17:11:38<asfd>:aoisjf
+INFO  com.sirma.itt.javacourse.server.Helper  - 17:11:38<sanko>:kak e
+INFO  com.sirma.itt.javacourse.server.Helper  - 17:11:38:The client asfd has disconnected.
+INFO  com.sirma.itt.javacourse.server.Helper  - 17:11:38: The client sanko is trying to connect.
+INFO  com.sirma.itt.javacourse.server.Helper  - 17:11:38:The client sanko has disconnected.
+INFO  com.sirma.itt.javacourse.server.Helper  - 17:11:38: The client paco[ is trying to connect.
+INFO  com.sirma.itt.javacourse.server.Helper  - 17:11:38:The client paco[ has disconnected.
+INFO  com.sirma.itt.javacourse.server.Helper  - 17:11:38: The client  is trying to connect.
+INFO  com.sirma.itt.javacourse.server.Helper  - 17:11:38:The client  has disconnected.
+INFO  com.sirma.itt.javacourse.server.Helper  - 17:11:38: The client [.] is trying to connect.
+INFO  com.sirma.itt.javacourse.server.Helper  - 17:11:38:The client [.] has disconnected.
+INFO  com.sirma.itt.javacourse.server.Helper  - 17:11:38: The client asf is trying to connect.
+INFO  com.sirma.itt.javacourse.server.Helper  - 17:11:38: The client asf has connected.
+INFO  com.sirma.itt.javacourse.server.Helper  - 17:11:38<asf>:AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA 
+INFO  com.sirma.itt.javacourse.server.Helper  - 17:11:38:The client asf has disconnected.
+INFO  com.sirma.itt.javacourse.server.Helper  - 17:11:38: The client AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA [ is trying to connect.
+INFO  com.sirma.itt.javacourse.server.Helper  - 17:11:38:The client AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA [ has disconnected.
+INFO  com.sirma.itt.javacourse.server.Helper  - 17:11:38: The client AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA A  is trying to connect.
+INFO  com.sirma.itt.javacourse.server.Helper  - 17:11:38: The client AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA A  has connected.
+INFO  com.sirma.itt.javacourse.server.Helper  - 17:11:38<AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA A >:as
+INFO  com.sirma.itt.javacourse.server.Helper  - 17:11:38:The client AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA A  has disconnected.
+INFO  com.sirma.itt.javacourse.server.Helper  - 17:31:44: The client ivan is trying to connect.
+INFO  com.sirma.itt.javacourse.server.Helper  - 17:31:44: The client ivan has connected.
+INFO  com.sirma.itt.javacourse.server.Helper  - 17:31:44<ivan>:Kak e 
+INFO  com.sirma.itt.javacourse.server.Helper  - 17:31:44<ivan>:Dobree 
+INFO  com.sirma.itt.javacourse.server.Helper  - 17:31:44: The client toni is trying to connect.
+INFO  com.sirma.itt.javacourse.server.Helper  - 17:31:44: The client toni has connected.
+INFO  com.sirma.itt.javacourse.server.Helper  - 17:31:44<toni>:Are ue 
+INFO  com.sirma.itt.javacourse.server.Helper  - 17:31:44<toni>:Kag ste 
+INFO  com.sirma.itt.javacourse.server.Helper  - 17:31:44Error occured with the client ivan
+INFO  com.sirma.itt.javacourse.server.Helper  - 17:31:44:The client ivan has disconnected.
+INFO  com.sirma.itt.javacourse.server.Helper  - 17:31:44Error occured with the client toni
+INFO  com.sirma.itt.javacourse.server.Helper  - 17:31:44:The client toni has disconnected.
+INFO  com.sirma.itt.javacourse.server.Helper  - 17:31:44: The client ivan is trying to connect.
+INFO  com.sirma.itt.javacourse.server.Helper  - 17:31:44: The client ivan has connected.
+INFO  com.sirma.itt.javacourse.server.Helper  - 17:31:44<ivan>:Kak ste ue 
+INFO  com.sirma.itt.javacourse.server.Helper  - 17:31:44<ivan>:Dobre a ti 
+INFO  com.sirma.itt.javacourse.server.Helper  - 17:31:44Error occured with the client ivan
+INFO  com.sirma.itt.javacourse.server.Helper  - 17:31:44:The client ivan has disconnected.
+INFO  com.sirma.itt.javacourse.server.Helper  - 18:17:19: The client toni is trying to connect.
+INFO  com.sirma.itt.javacourse.server.Helper  - 18:17:19: The client toni has connected.
+INFO  com.sirma.itt.javacourse.server.Helper  - 18:17:55: The client asdf is trying to connect.
+INFO  com.sirma.itt.javacourse.server.Helper  - 18:17:55: The client asdf has connected.
+INFO  com.sirma.itt.javacourse.server.Helper  - 18:17:55<asdf>:Kak e ? 
+INFO  com.sirma.itt.javacourse.server.Helper  - 18:50:49: The client Won't be connected[] is trying to connect.
+INFO  com.sirma.itt.javacourse.server.Helper  - 18:50:49:The client Won't be connected[] has disconnected.
+INFO  com.sirma.itt.javacourse.server.Helper  - 18:51:41: The client Won't be connected[] is trying to connect.
+INFO  com.sirma.itt.javacourse.server.Helper  - 18:51:41:The client Won't be connected[] has disconnected.
+INFO  com.sirma.itt.javacourse.server.Helper  - 18:54:16: The client Won't be connected[] is trying to connect.
+INFO  com.sirma.itt.javacourse.server.Helper  - 18:54:16:The client Won't be connected[] has disconnected.
+INFO  com.sirma.itt.javacourse.server.Helper  - 18:56:20: The client Won't be connected[] is trying to connect.
+INFO  com.sirma.itt.javacourse.server.Helper  - 18:56:20:The client Won't be connected[] has disconnected.
+INFO  com.sirma.itt.javacourse.server.Helper  - 18:57:12: The client Won't be connected[] is trying to connect.
+INFO  com.sirma.itt.javacourse.server.Helper  - 18:57:12:The client Won't be connected[] has disconnected.
+INFO  com.sirma.itt.javacourse.server.Helper  - 19:00:12: The client Won't be connected[] is trying to connect.
+INFO  com.sirma.itt.javacourse.server.Helper  - 19:00:12:The client Won't be connected[] has disconnected.
+INFO  com.sirma.itt.javacourse.server.Helper  - 19:00:12: The client ivan is trying to connect.
+INFO  com.sirma.itt.javacourse.server.Helper  - 19:00:12: The client ivan has connected.
+INFO  com.sirma.itt.javacourse.server.Helper  - 19:00:18: The client Won't be connected[] is trying to connect.
+INFO  com.sirma.itt.javacourse.server.Helper  - 19:00:18:The client Won't be connected[] has disconnected.
+INFO  com.sirma.itt.javacourse.server.Helper  - 19:00:18: The client ivan is trying to connect.
+INFO  com.sirma.itt.javacourse.server.Helper  - 19:00:18: The client ivan has connected.
+INFO  com.sirma.itt.javacourse.server.Helper  - 19:00:23: The client Won't be connected[] is trying to connect.
+INFO  com.sirma.itt.javacourse.server.Helper  - 19:00:23:The client Won't be connected[] has disconnected.
+INFO  com.sirma.itt.javacourse.server.Helper  - 19:00:23: The client ivan is trying to connect.
+INFO  com.sirma.itt.javacourse.server.Helper  - 19:00:23: The client ivan has connected.
+INFO  com.sirma.itt.javacourse.server.Helper  - 19:01:53: The client tonchi is trying to connect.
+INFO  com.sirma.itt.javacourse.server.Helper  - 19:01:53: The client tonchi has connected.
+INFO  com.sirma.itt.javacourse.server.Helper  - 19:01:53<tonchi>:Kak ste ? 
+INFO  com.sirma.itt.javacourse.server.Helper  - 19:02:17: The client ivan is trying to connect.
+INFO  com.sirma.itt.javacourse.server.Helper  - 19:02:17: The client ivan has connected.
+INFO  com.sirma.itt.javacourse.server.Helper  - 19:02:17: The client ivan is trying to connect.
+INFO  com.sirma.itt.javacourse.server.Helper  - 19:02:17:The client ivan has disconnected.
+INFO  com.sirma.itt.javacourse.server.Helper  - 19:02:17: The client ivancho is trying to connect.
+INFO  com.sirma.itt.javacourse.server.Helper  - 19:02:17: The client ivancho has connected.
+INFO  com.sirma.itt.javacourse.server.Helper  - 19:02:17<ivancho>:Kak ste be ? 
+INFO  com.sirma.itt.javacourse.server.Helper  - 19:02:17<ivan>:[] dobre a ti
+INFO  com.sirma.itt.javacourse.server.Helper  - 19:02:17<ivancho>:Ше ги резнем нали ? 
+INFO  com.sirma.itt.javacourse.server.Helper  - 19:02:17:The client ivan has disconnected.
+INFO  com.sirma.itt.javacourse.server.Helper  - 19:09:27: The client Won't be connected[] is trying to connect.
+INFO  com.sirma.itt.javacourse.server.Helper  - 19:09:27:The client Won't be connected[] has disconnected.
+INFO  com.sirma.itt.javacourse.server.Helper  - 17:17:32: The client asdf is trying to connect.
+INFO  com.sirma.itt.javacourse.server.Helper  - 17:17:32: The client asdf has connected.
+INFO  com.sirma.itt.javacourse.server.Helper  - 17:17:32: The client toni is trying to connect.
+INFO  com.sirma.itt.javacourse.server.Helper  - 17:17:32: The client toni has connected.
+INFO  com.sirma.itt.javacourse.server.Helper  - 17:17:32<toni>:Kak kvo staaa brat 
+INFO  com.sirma.itt.javacourse.server.Helper  - 17:17:32<asdf>:Em nishto rejem kakto obiknoveno 
+INFO  com.sirma.itt.javacourse.server.Helper  - 17:17:32:The client asdf has disconnected.
+INFO  com.sirma.itt.javacourse.server.Helper  - 17:17:32:The client toni has disconnected.
+INFO  com.sirma.itt.javacourse.server.Helper  - 17:36:07: The client ivan is trying to connect.
+INFO  com.sirma.itt.javacourse.server.Helper  - 17:36:07: The client ivan has connected.
+INFO  com.sirma.itt.javacourse.server.Helper  - 17:36:07<ivan>:Asdf
+INFO  com.sirma.itt.javacourse.server.Helper  - 17:36:07<ivan>:Asdfasdf
+INFO  com.sirma.itt.javacourse.server.Helper  - 17:36:07<ivan>:Asdfasdf
+INFO  com.sirma.itt.javacourse.server.Helper  - 17:36:07Error occured with the client ivan
+INFO  com.sirma.itt.javacourse.server.Helper  - 17:36:07:The client ivan has disconnected.
+INFO  com.sirma.itt.javacourse.server.Helper  - 17:36:07: The client ivan is trying to connect.
+INFO  com.sirma.itt.javacourse.server.Helper  - 17:36:07: The client ivan has connected.
+INFO  com.sirma.itt.javacourse.server.Helper  - 17:36:07<ivan>:Asdf
+INFO  com.sirma.itt.javacourse.server.Helper  - 17:36:07Error occured with the client ivan
+INFO  com.sirma.itt.javacourse.server.Helper  - 17:36:07:The client ivan has disconnected.
+INFO  com.sirma.itt.javacourse.server.Helper  - 17:36:07: The client asdf is trying to connect.
+INFO  com.sirma.itt.javacourse.server.Helper  - 17:36:07: The client asdf has connected.
+INFO  com.sirma.itt.javacourse.server.Helper  - 17:36:07<asdf>:Write your message.asdf
+INFO  com.sirma.itt.javacourse.server.Helper  - 17:36:07<asdf>:Write your message.asdf
+INFO  com.sirma.itt.javacourse.server.Helper  - 17:36:07<asdf>:Ivan
+INFO  com.sirma.itt.javacourse.server.Helper  - 17:36:07<asdf>:Kak e ? 
+INFO  com.sirma.itt.javacourse.server.Helper  - 17:36:07:The client asdf has disconnected.
+INFO  com.sirma.itt.javacourse.server.Helper  - 17:27:10: The client ivan is trying to connect.
+INFO  com.sirma.itt.javacourse.server.Helper  - 17:27:10: The client ivan has connected.
+INFO  com.sirma.itt.javacourse.server.Helper  - 17:27:10<ivan>:Asdfasdfasd
+INFO  com.sirma.itt.javacourse.server.Helper  - 17:27:10:The client ivan has disconnected.

@@ -6,6 +6,8 @@ import java.awt.Dimension;
 import java.awt.Font;
 import java.awt.event.ActionEvent;
 import java.awt.event.ActionListener;
+import java.util.Locale;
+import java.util.ResourceBundle;
 
 import javax.swing.JButton;
 import javax.swing.JFrame;
@@ -27,19 +29,25 @@ import javax.swing.JTextArea;
  */
 @SuppressWarnings("serial")
 public class ServerWindow extends JFrame {
-	private Server server;
 
+	private Locale bgLocale = new Locale("bg");
+	private Locale enLocale = new Locale("en");
+	private ResourceBundle bundle = ResourceBundle.getBundle(
+			"com.sirma.itt.javacourse.server.Language", enLocale);
+	private Server server;
 	private JMenuBar menuBar = new JMenuBar();
 	private JMenu menu = new JMenu();
 	private JPanel mainPanel = new JPanel();
 	private JPanel headerPanel = new JPanel();
-	private JLabel headerLabel = new JLabel("Welcome");
+	private JLabel headerLabel = new JLabel("Welcome!");
 	private JPanel footerPanel = new JPanel();
 	private JTextArea area = new JTextArea(7, 25);
 	private JScrollPane scroll = new JScrollPane(area,
 			JScrollPane.VERTICAL_SCROLLBAR_ALWAYS,
 			JScrollPane.HORIZONTAL_SCROLLBAR_ALWAYS);
 	private JButton stopButton = new JButton();
+	private JMenuItem enButton = new JMenuItem("English");
+	private JMenuItem bgButton = new JMenuItem("Bulgarian");
 
 	/**
 	 * Gets a title for the frame constructs its components and initializes the
@@ -51,7 +59,7 @@ public class ServerWindow extends JFrame {
 	public ServerWindow(String title) {
 		super(title);
 		constructFrame();
-		server = new Server();
+		server = Server.startServer();
 		server.start();
 		new Helper(area);
 
@@ -79,8 +87,20 @@ public class ServerWindow extends JFrame {
 		menu = new JMenu("Select language");
 		menu.getAccessibleContext().setAccessibleDescription(
 				"The menu for the languages.");
-		menu.add(new JMenuItem("English"));
-		menu.add(new JMenuItem("Bulgarian"));
+		bgButton.addActionListener(new ActionListener() {
+			@Override
+			public void actionPerformed(ActionEvent e) {
+				rewrite("bg");
+			}
+		});
+		enButton.addActionListener(new ActionListener() {
+			@Override
+			public void actionPerformed(ActionEvent e) {
+				rewrite("en");
+			}
+		});
+		menu.add(bgButton);
+		menu.add(enButton);
 
 		menuBar.add(menu);
 
@@ -102,13 +122,43 @@ public class ServerWindow extends JFrame {
 
 		stopButton.setText("Stop Server");
 		stopButton.addActionListener(new ActionListener() {
-
 			public void actionPerformed(ActionEvent e) {
 				server.stopServer();
+				System.exit(0);
 			}
-
 		});
 		stopButton.setPreferredSize(new Dimension(200, 30));
+	}
+
+	/**
+	 * Rewrites all names depending on the chosen language.
+	 * 
+	 * @param language
+	 *            the language
+	 */
+	public void rewrite(String language) {
+		if (language.equals("bg")) {
+			bundle = ResourceBundle.getBundle(
+					"com.sirma.itt.javacourse.server.Language", bgLocale);
+		} else {
+			bundle = ResourceBundle.getBundle(
+					"com.sirma.itt.javacourse.server.Language", enLocale);
+		}
+		setTitle(bundle.getString("title"));
+		menu.setText(bundle.getString("menu"));
+		enButton.setText(bundle.getString("enButton"));
+		bgButton.setText(bundle.getString("bgButton"));
+		headerLabel.setText(bundle.getString("headerLabel"));
+		stopButton.setText(bundle.getString("stopButton"));
+	}
+
+	/**
+	 * Getter for the server thread.
+	 * 
+	 * @return the server thread
+	 */
+	public Server getServer() {
+		return server;
 	}
 
 	/**
@@ -117,6 +167,10 @@ public class ServerWindow extends JFrame {
 	 * @param args
 	 */
 	public static void main(String[] args) {
-		new ServerWindow("Server Window");
+		try {
+			new ServerWindow("Server");
+		} catch (NullPointerException e) {
+			System.exit(0);
+		}
 	}
 }

@@ -6,6 +6,10 @@ import java.awt.Dimension;
 import java.awt.Font;
 import java.awt.event.ActionEvent;
 import java.awt.event.ActionListener;
+import java.awt.event.KeyEvent;
+import java.awt.event.KeyListener;
+import java.util.Locale;
+import java.util.ResourceBundle;
 
 import javax.swing.JButton;
 import javax.swing.JFrame;
@@ -28,6 +32,11 @@ import javax.swing.JTextField;
 @SuppressWarnings("serial")
 public class ClientWindow extends JFrame {
 
+	private String headerCon = "headerLabel";
+	private Locale enLocale = new Locale("en");
+	private Locale bgLocale = new Locale("bg");
+	private ResourceBundle bundle = ResourceBundle.getBundle(
+			"com.sirma.itt.javacourse.client.Language", enLocale);
 	private boolean isConnected;
 	private Client client;
 	private JMenuBar menuBar = new JMenuBar();
@@ -47,15 +56,21 @@ public class ClientWindow extends JFrame {
 	private JButton connectButton = new JButton();
 	private JButton stopButton = new JButton();
 	private JTextField sendTextField = new JTextField();
+	private JMenuItem bgButton = new JMenuItem("Bulgarian");
+	private JMenuItem enButton = new JMenuItem("English");
+	private PreviousMessages prevMessages;
 
 	/**
 	 * The constructor which gets a title and constructs the window.
 	 * 
 	 * @param title
-	 *            the title for the window
+	 *            the title for the frame
 	 */
 	public ClientWindow(String title) {
 		super(title);
+
+		prevMessages = new PreviousMessages();
+
 		client = new Client(conversationArea, clientsArea);
 		client.start();
 		setUnconnectedFrame();
@@ -81,16 +96,29 @@ public class ClientWindow extends JFrame {
 		setResizable(false);
 		setLocationRelativeTo(null);
 
-		menu = new JMenu("Select language");
+		menu = new JMenu("Select Language");
 		menu.getAccessibleContext().setAccessibleDescription(
 				"The menu for the languages.");
-		menu.add(new JMenuItem("English"));
-		menu.add(new JMenuItem("Bulgarian"));
 
+		enButton.addActionListener(new ActionListener() {
+			@Override
+			public void actionPerformed(ActionEvent e) {
+				rewrite("en");
+			}
+		});
+		menu.add(enButton);
+
+		bgButton.addActionListener(new ActionListener() {
+			@Override
+			public void actionPerformed(ActionEvent e) {
+				rewrite("bg");
+			}
+		});
+		menu.add(bgButton);
 		menuBar.add(menu);
 
-		headerLabel.setSize(new Dimension(100, 40));
-		headerLabel.setFont(new Font("BOLD", 5, 40));
+		headerLabel.setSize(new Dimension(100, 20));
+		headerLabel.setFont(new Font("BOLD", 5, 20));
 		headerLabel.setForeground(Color.WHITE);
 
 		headerPanel.setBackground(Color.darkGray);
@@ -104,32 +132,40 @@ public class ClientWindow extends JFrame {
 		mainPanel.setBackground(Color.gray);
 
 		connectButton.setPreferredSize(new Dimension(100, 30));
-		connectButton.setText("Connect");
+		connectButton.setText("Send");
 		connectButton.addActionListener(new ActionListener() {
-
+			@Override
 			public void actionPerformed(ActionEvent e) {
 				if (!isConnected) {
 					client.connect();
+
 					client.sendToServer(sendTextField.getText());
-					ClientsList.getInstance().addClient(sendTextField.getText(), client);
-					
-					try {
-						Thread.sleep(200);
-					} catch (InterruptedException e1) {
+					client.setName(sendTextField.getText());
+
+					// waits until the client receives an message
+					while (client.getMessage().equals("")) {
+
 					}
 					if (client.getMessage().equals("False")) {
 						headerLabel.setFont(new Font("BOLD", 5, 15));
-						headerLabel.setText("Invalid nick. " + "\n"
-								+ "Try Again");
+						headerCon = "invalidName";
+						headerLabel.setText(bundle.getString(headerCon));
 						client.stopConnection();
 					} else if (client.getMessage().equals("NoServer")) {
-						headerLabel.setText("No Server");
+						headerCon = "noServer";
+						headerLabel.setText(bundle.getString(headerCon));
 					} else {
 						setConnectedFrame();
 						isConnected = true;
 					}
 				} else {
-					client.sendToServer(sendTextField.getText());
+					if (!sendTextField.getText().equals("")
+							&& !sendTextField.getText().equals(
+									"Write your message.")) {
+						client.sendToServer(sendTextField.getText());
+						prevMessages.saveToMemento(sendTextField.getText());
+						sendTextField.setText("");
+					}
 				}
 			}
 		});
@@ -139,39 +175,89 @@ public class ClientWindow extends JFrame {
 	}
 
 	/**
-	 * This is the window when the client is connected and its nickname is
-	 * valid.
+	 * This window appears when the client's nickname is correct. It contains an
+	 * area for observing the conversation and another one for the available
+	 * clients. Also there are two buttons - first for sending the message form
+	 * the text field and the second for disconnecting form the server.
 	 */
 	public void setConnectedFrame() {
 		setSize(400, 450);
+		setTitle(bundle.getString("frame"));
 
-		headerLabel.setSize(new Dimension(100, 40));
-		headerLabel.setFont(new Font("BOLD", 5, 40));
+		headerLabel.setSize(new Dimension(100, 20));
+		headerLabel.setFont(new Font("BOLD", 5, 20));
 		headerLabel.setForeground(Color.WHITE);
-		headerLabel.setText("Welcome");
+		headerCon = "headerLabel";
+		headerLabel.setText(bundle.getString(headerCon));
 
 		clientsArea.setEditable(false);
 		conversationArea.setEditable(false);
 
 		stopButton.setPreferredSize(new Dimension(100, 30));
-		stopButton.setText("Disconnect");
+		stopButton.setText(bundle.getString("stopButton"));
 		stopButton.addActionListener(new ActionListener() {
+			@Override
 			public void actionPerformed(ActionEvent e) {
 				client.sendToServer("Disconnect");
 				System.exit(0);
 			}
 		});
 
-		connectButton.setText("Send");
+		connectButton.setText(bundle.getString("connectButton"));
 
 		sendTextField.setPreferredSize(new Dimension(300, 50));
 		sendTextField.setText("Write your message.");
+		sendTextField.addKeyListener(new KeyListener(){
+			@Override
+			public void keyTyped(KeyEvent e) {
+			}
 
+			@Override
+			public void keyPressed(KeyEvent e) {
+				if(e.getKeyCode()==KeyEvent.VK_DOWN){
+					String mess = prevMessages.restoreFromMemento();
+					if(!mess.equals(null)){
+						sendTextField.setText(mess);
+					}
+				}
+			}
+
+			@Override
+			public void keyReleased(KeyEvent e) {
+			}
+		});
+		
+		menu.setText(bundle.getString("menuName"));
+		bgButton.setText(bundle.getString("bgButton"));
+		enButton.setText(bundle.getString("enButton"));
 		mainPanel.add(clientsPane);
 		mainPanel.add(conversationPane);
 		mainPanel.add(sendTextField);
 		mainPanel.add(connectButton);
 		mainPanel.add(stopButton);
+	}
+
+	/**
+	 * Rewrites the names in the window depending on the chosen language.
+	 * 
+	 * @param string
+	 *            the language.
+	 */
+	private void rewrite(String language) {
+		if (language.equals("bg")) {
+			bundle = ResourceBundle.getBundle(
+					"com.sirma.itt.javacourse.client.Language", bgLocale);
+		} else {
+			bundle = ResourceBundle.getBundle(
+					"com.sirma.itt.javacourse.client.Language", enLocale);
+		}
+		menu.setText(bundle.getString("menuName"));
+		enButton.setText(bundle.getString("enButton"));
+		bgButton.setText(bundle.getString("bgButton"));
+		headerLabel.setText(bundle.getString(headerCon));
+		stopButton.setText(bundle.getString("stopButton"));
+		connectButton.setText(bundle.getString("connectButton"));
+		setTitle(bundle.getString("frame"));
 	}
 
 	/**

@@ -3,22 +3,28 @@ package com.sirma.itt.javacourse.server;
 import java.io.IOException;
 import java.net.ServerSocket;
 import java.net.Socket;
+import java.util.concurrent.atomic.AtomicBoolean;
 
 /**
  * Represents the server which waits for a connection from a client and if a
  * client connects it starts a thread that services the client.
  * 
- * @author Admin
+ * @author Nikolay Ch
  * 
  */
 public class Server extends Thread {
 
-	private ServerSocket server;
+	private ServerSocket serverSocket;
 	private Socket newClient = new Socket();
+	private AtomicBoolean isStopped = new AtomicBoolean(false);
+	private static Server server = null;
 
-	public Server() {
+	/**
+	 * Creates and starts the server.
+	 */
+	private Server() {
 		try {
-			server = new ServerSocket(1948);
+			serverSocket = new ServerSocket(1948);
 		} catch (IOException e) {
 			Helper.write("An error occured when trying to start the server.");
 		}
@@ -26,11 +32,15 @@ public class Server extends Thread {
 
 	@Override
 	public void run() {
-		while (true) {
+		/*
+		 * Starts a loop where it waits for a connection from a client. Then
+		 * starts a ClientThread for servicing it.
+		 */
+		while (!isStopped.get()) {
 			try {
-				newClient = server.accept();
+				newClient = serverSocket.accept();
 				new ClientThread(newClient).start();
-				
+
 			} catch (IOException e) {
 				Helper.write("Error occured when trying to accept new client.");
 			}
@@ -38,9 +48,31 @@ public class Server extends Thread {
 	}
 
 	/**
+	 * Getter for the boolean field that keeps if the server is stopped.
+	 * 
+	 * @return the value of the field
+	 */
+	public boolean getIsStopped() {
+		return isStopped.get();
+	}
+
+	/**
 	 * Stops the server.
 	 */
 	public void stopServer() {
-		System.exit(0);
+		isStopped.set(true);
 	}
+
+	/**
+	 * Returns an instance of the server's type.
+	 * 
+	 * @return a server
+	 */
+	public static Server startServer() {
+		if (server == null) {
+			server = new Server();
+		}
+		return server;
+	}
+
 }
