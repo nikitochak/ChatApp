@@ -38,11 +38,11 @@ public class ClientThread extends Thread {
 		 * is the client's nickname. Notifies the server that a client with that
 		 * name is trying to connect by the Helper's static method for writing
 		 * on the server's area. Then checks if the client's name is correct and
-		 * available and if it is true send him the connected clients'nicknames.
+		 * available and if it is true sends him the connected clients'nicknames.
 		 * Then starts a loop for reading a messages from him and every time it
-		 * receives one notifies the server and sends it to the all clients.Else
+		 * receives one, notifies the server and sends it to the all clients.Else
 		 * sends him false and stops the thread. If the message is Disconnect
-		 * then closes the connection.
+		 * closes the connection.
 		 */
 		BufferedReader reader;
 		PrintWriter writer;
