@@ -8,7 +8,7 @@ import org.junit.Test;
 import com.sirma.itt.javacourse.client.Client;
 
 /**
- * Tests the starting and the stopping of the server.
+ * Tests the starting of the server and the connection with a client.
  * 
  * @author Nikolay Ch
  */
@@ -25,21 +25,15 @@ public class ServerTest {
 	}
 
 	/**
-	 * Tests the client connection without active server.
-	 */
-	@Test
-	public void testClient() {
-		client.connect();
-		assertEquals(client.getMessage(), "NoServer");
-	}
-
-	/**
-	 * Starts a server and checks it field that keeps whether the server is
-	 * stopped. Then connects a client with an invalid name and checks the
-	 * return. At the end connects a client with an appropriate name.
+	 * Tries to connect to a server but without starting one. Then starts a
+	 * server and checks it's field that keeps whether the server is stopped. Then
+	 * connects a client with an invalid name and checks the return. At the end
+	 * connects a client with an appropriate name.
 	 */
 	@Test
 	public void testSratingTheServer() {
+		client.connect();
+		assertEquals(client.getMessage(), "NoServer");
 		window = new ServerWindow("Server");
 		assertFalse(window.getServer().getIsStopped());
 		client.connect();
@@ -57,5 +51,4 @@ public class ServerTest {
 		}
 		assertEquals(client.getMessage().contains("["), true);
 	}
-
 }

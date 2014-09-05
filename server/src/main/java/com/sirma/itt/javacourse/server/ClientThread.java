@@ -72,6 +72,7 @@ public class ClientThread extends Thread {
 						client.close();
 						Helper.removeClient(name);
 						isAlive = false;
+						throw new IOException();
 					} else {
 						allMessage.append(Helper.getCurrentTime()).append(
 								message);
@@ -86,15 +87,15 @@ public class ClientThread extends Thread {
 				isAlive = false;
 			}
 		} catch (IOException e) {
-			Helper.write(Helper.getCurrentTime()
-					+ "Error occured with the client " + name);
+			Helper.write(Helper.getCurrentTime() + ":The client " + name
+					+ " has disconnected.");
 		}
 		if (isAdded) {
 			Helper.removeClient(name);
 			Helper.sendToAll("Disconnect : " + name);
+		} else {
+			Helper.write(Helper.getCurrentTime() + ":The client " + name
+					+ " has disconnected.");
 		}
-		Helper.write(Helper.getCurrentTime() + ":The client " + name
-				+ " has disconnected.");
-
 	}
 }

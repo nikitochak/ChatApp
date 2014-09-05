@@ -108,7 +108,7 @@ public class Client extends Thread {
 			reader.close();
 			clientSocket.close();
 			message = "";
-		} catch (IOException e) {
+		} catch (IOException | NullPointerException ne) {
 			writeMessage("Error occured when trying to close the socket.");
 		}
 	}

@@ -234,3 +234,84 @@ INFO  com.sirma.itt.javacourse.server.Helper  - 17:27:10: The client ivan is try
 INFO  com.sirma.itt.javacourse.server.Helper  - 17:27:10: The client ivan has connected.
 INFO  com.sirma.itt.javacourse.server.Helper  - 17:27:10<ivan>:Asdfasdfasd
 INFO  com.sirma.itt.javacourse.server.Helper  - 17:27:10:The client ivan has disconnected.
+INFO  com.sirma.itt.javacourse.server.Helper  - 20:05:18: The client asdf is trying to connect.
+INFO  com.sirma.itt.javacourse.server.Helper  - 20:05:18: The client asdf has connected.
+INFO  com.sirma.itt.javacourse.server.Helper  - 20:05:18: The client ivan is trying to connect.
+INFO  com.sirma.itt.javacourse.server.Helper  - 20:05:18: The client ivan has connected.
+INFO  com.sirma.itt.javacourse.server.Helper  - 20:05:18<asdf>:Kak e 
+INFO  com.sirma.itt.javacourse.server.Helper  - 20:05:18<ivan>:Kakdfasdf asdf
+INFO  com.sirma.itt.javacourse.server.Helper  - 20:07:03: The client Write your nickname. is trying to connect.
+INFO  com.sirma.itt.javacourse.server.Helper  - 20:07:03: The client Write your nickname. has connected.
+INFO  com.sirma.itt.javacourse.server.Helper  - 20:07:03<Write your nickname.>:Asdf
+INFO  com.sirma.itt.javacourse.server.Helper  - 20:07:03<Write your nickname.>:Kak e 
+INFO  com.sirma.itt.javacourse.server.Helper  - 20:07:03:The client Write your nickname. has disconnected.
+INFO  com.sirma.itt.javacourse.server.Helper  - 20:07:29: The client ivan is trying to connect.
+INFO  com.sirma.itt.javacourse.server.Helper  - 20:07:29: The client ivan has connected.
+INFO  com.sirma.itt.javacourse.server.Helper  - 20:07:29: The client toni is trying to connect.
+INFO  com.sirma.itt.javacourse.server.Helper  - 20:07:29: The client toni has connected.
+INFO  com.sirma.itt.javacourse.server.Helper  - 20:07:29<ivan>:Kak e 
+INFO  com.sirma.itt.javacourse.server.Helper  - 20:07:29<toni>:Dobre e pri teb 
+INFO  com.sirma.itt.javacourse.server.Helper  - 20:07:29Error occured with the client toni
+INFO  com.sirma.itt.javacourse.server.Helper  - 20:07:29:The client toni has disconnected.
+INFO  com.sirma.itt.javacourse.server.Helper  - 20:07:29Error occured with the client ivan
+INFO  com.sirma.itt.javacourse.server.Helper  - 20:07:29:The client ivan has disconnected.
+INFO  com.sirma.itt.javacourse.server.Helper  - 20:10:36: The client ivan is trying to connect.
+INFO  com.sirma.itt.javacourse.server.Helper  - 20:10:36: The client ivan has connected.
+INFO  com.sirma.itt.javacourse.server.Helper  - 20:10:36Error occured with the client ivan
+INFO  com.sirma.itt.javacourse.server.Helper  - 20:10:36:The client ivan has disconnected.
+INFO  com.sirma.itt.javacourse.server.Helper  - 20:16:21: The client asdfasdf[ is trying to connect.
+INFO  com.sirma.itt.javacourse.server.Helper  - 20:16:21: The client asdfasdf[ is trying to connect.
+INFO  com.sirma.itt.javacourse.server.Helper  - 20:17:19: The client Write your nickname. is trying to connect.
+INFO  com.sirma.itt.javacourse.server.Helper  - 20:17:19: The client Write your nickname. has connected.
+INFO  com.sirma.itt.javacourse.server.Helper  - 20:17:19:The client Write your nickname. has disconnected.
+INFO  com.sirma.itt.javacourse.server.Helper  - 20:17:19: The client []] is trying to connect.
+INFO  com.sirma.itt.javacourse.server.Helper  - 20:17:19:The client []] has disconnected.
+INFO  com.sirma.itt.javacourse.server.Helper  - 20:17:19: The client asdf is trying to connect.
+INFO  com.sirma.itt.javacourse.server.Helper  - 20:17:19: The client asdf has connected.
+INFO  com.sirma.itt.javacourse.server.Helper  - 20:17:19<asdf>:Kak ste ? 
+INFO  com.sirma.itt.javacourse.server.Helper  - 20:17:19:The client asdf has disconnected.
+INFO  com.sirma.itt.javacourse.server.Helper  - 22:30:48: The client ASD[ is trying to connect.
+INFO  com.sirma.itt.javacourse.server.Helper  - 22:30:48:The client ASD[ has disconnected.
+INFO  com.sirma.itt.javacourse.server.Helper  - 22:30:48: The client ASD is trying to connect.
+INFO  com.sirma.itt.javacourse.server.Helper  - 22:30:48: The client ASD has connected.
+INFO  com.sirma.itt.javacourse.server.Helper  - 22:30:48<ASD>:КАК Е ?
+INFO  com.sirma.itt.javacourse.server.Helper  - 12:51:38: The client Write your nickname. is trying to connect.
+INFO  com.sirma.itt.javacourse.server.Helper  - 12:51:38: The client Write your nickname. has connected.
+INFO  com.sirma.itt.javacourse.server.Helper  - 12:51:38:The client Write your nickname. has disconnected.
+INFO  com.sirma.itt.javacourse.server.Helper  - 13:01:59: The client adsfa[] is trying to connect.
+INFO  com.sirma.itt.javacourse.server.Helper  - 13:01:59:The client adsfa[] has disconnected.
+INFO  com.sirma.itt.javacourse.server.Helper  - 13:01:59: The client adsfa is trying to connect.
+INFO  com.sirma.itt.javacourse.server.Helper  - 13:01:59: The client adsfa has connected.
+INFO  com.sirma.itt.javacourse.server.Helper  - 13:01:59<adsfa>:Kak e ? 
+INFO  com.sirma.itt.javacourse.server.Helper  - 13:04:04: The client Won't be connected[] is trying to connect.
+INFO  com.sirma.itt.javacourse.server.Helper  - 13:04:04:The client Won't be connected[] has disconnected.
+INFO  com.sirma.itt.javacourse.server.Helper  - 13:04:04: The client ivan is trying to connect.
+INFO  com.sirma.itt.javacourse.server.Helper  - 13:04:04: The client ivan has connected.
+INFO  com.sirma.itt.javacourse.server.Helper  - 13:04:40: The client Won't be connected[] is trying to connect.
+INFO  com.sirma.itt.javacourse.server.Helper  - 13:04:40:The client Won't be connected[] has disconnected.
+INFO  com.sirma.itt.javacourse.server.Helper  - 13:06:03: The client Won't be connected[] is trying to connect.
+INFO  com.sirma.itt.javacourse.server.Helper  - 13:06:03:The client Won't be connected[] has disconnected.
+INFO  com.sirma.itt.javacourse.server.Helper  - 13:06:03: The client ivan is trying to connect.
+INFO  com.sirma.itt.javacourse.server.Helper  - 13:06:03: The client ivan has connected.
+INFO  com.sirma.itt.javacourse.server.Helper  - 13:06:30: The client Won't be connected[] is trying to connect.
+INFO  com.sirma.itt.javacourse.server.Helper  - 13:06:30:The client Won't be connected[] has disconnected.
+INFO  com.sirma.itt.javacourse.server.Helper  - 13:06:30: The client ivan is trying to connect.
+INFO  com.sirma.itt.javacourse.server.Helper  - 13:06:30: The client ivan has connected.
+INFO  com.sirma.itt.javacourse.server.Helper  - 13:09:13: The client Won't be connected[] is trying to connect.
+INFO  com.sirma.itt.javacourse.server.Helper  - 13:09:13:The client Won't be connected[] has disconnected.
+INFO  com.sirma.itt.javacourse.server.Helper  - 13:09:55: The client Won't be connected[] is trying to connect.
+INFO  com.sirma.itt.javacourse.server.Helper  - 13:09:55:The client Won't be connected[] has disconnected.
+INFO  com.sirma.itt.javacourse.server.Helper  - 13:09:55: The client ivan is trying to connect.
+INFO  com.sirma.itt.javacourse.server.Helper  - 13:09:55: The client ivan has connected.
+INFO  com.sirma.itt.javacourse.server.Helper  - 13:10:05: The client Won't be connected[] is trying to connect.
+INFO  com.sirma.itt.javacourse.server.Helper  - 13:10:05:The client Won't be connected[] has disconnected.
+INFO  com.sirma.itt.javacourse.server.Helper  - 13:10:05: The client ivan is trying to connect.
+INFO  com.sirma.itt.javacourse.server.Helper  - 13:10:05: The client ivan has connected.
+INFO  com.sirma.itt.javacourse.server.Helper  - 13:10:37: The client Won't be connected[] is trying to connect.
+INFO  com.sirma.itt.javacourse.server.Helper  - 13:10:37:The client Won't be connected[] has disconnected.
+INFO  com.sirma.itt.javacourse.server.Helper  - 13:10:37: The client ivan is trying to connect.
+INFO  com.sirma.itt.javacourse.server.Helper  - 13:10:37: The client ivan has connected.
+INFO  com.sirma.itt.javacourse.server.Helper  - 13:11:30: The client Won't be connected[] is trying to connect.
+INFO  com.sirma.itt.javacourse.server.Helper  - 13:11:30:The client Won't be connected[] has disconnected.
+INFO  com.sirma.itt.javacourse.server.Helper  - 13:11:30: The client ivan is trying to connect.
+INFO  com.sirma.itt.javacourse.server.Helper  - 13:11:30: The client ivan has connected.

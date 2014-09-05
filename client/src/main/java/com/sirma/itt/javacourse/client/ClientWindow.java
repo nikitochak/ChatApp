@@ -27,12 +27,11 @@ import javax.swing.JTextField;
  * he can chat to the rest clients.
  * 
  * @author Nikolay Ch
- * 
  */
 @SuppressWarnings("serial")
 public class ClientWindow extends JFrame {
 
-	private String headerCon = "headerLabel";
+	private String headerCondition = "headerLabel";
 	private Locale enLocale = new Locale("en");
 	private Locale bgLocale = new Locale("bg");
 	private ResourceBundle bundle = ResourceBundle.getBundle(
@@ -117,8 +116,8 @@ public class ClientWindow extends JFrame {
 		menu.add(bgButton);
 		menuBar.add(menu);
 
-		headerLabel.setSize(new Dimension(100, 20));
-		headerLabel.setFont(new Font("BOLD", 5, 20));
+		headerLabel.setSize(new Dimension(100, 19));
+		headerLabel.setFont(new Font("BOLD", 5, 19));
 		headerLabel.setForeground(Color.WHITE);
 
 		headerPanel.setBackground(Color.darkGray);
@@ -130,48 +129,58 @@ public class ClientWindow extends JFrame {
 		footerPanel.add(menuBar);
 
 		mainPanel.setBackground(Color.gray);
-
+		
+		sendTextField.setPreferredSize(new Dimension(150, 50));
+		sendTextField.setText("Write your nickname.");
+		
 		connectButton.setPreferredSize(new Dimension(100, 30));
 		connectButton.setText("Send");
 		connectButton.addActionListener(new ActionListener() {
 			@Override
 			public void actionPerformed(ActionEvent e) {
-				if (!isConnected) {
-					client.connect();
+				if (sendTextField.getText().length() > 200) {
+					headerCondition = "tooLong";
+					headerLabel.setText(bundle.getString(headerCondition));
+				} else if(sendTextField.getText().equals("Write your nickname.")){
+					headerCondition = "invalidName";
+					headerLabel.setText(bundle.getString(headerCondition));
+				}else {
+					if (!isConnected) {
+						client.connect();
 
-					client.sendToServer(sendTextField.getText());
-					client.setName(sendTextField.getText());
-
-					// waits until the client receives an message
-					while (client.getMessage().equals("")) {
-
-					}
-					if (client.getMessage().equals("False")) {
-						headerLabel.setFont(new Font("BOLD", 5, 15));
-						headerCon = "invalidName";
-						headerLabel.setText(bundle.getString(headerCon));
-						client.stopConnection();
-					} else if (client.getMessage().equals("NoServer")) {
-						headerCon = "noServer";
-						headerLabel.setText(bundle.getString(headerCon));
-					} else {
-						setConnectedFrame();
-						isConnected = true;
-					}
-				} else {
-					if (!sendTextField.getText().equals("")
-							&& !sendTextField.getText().equals(
-									"Write your message.")) {
 						client.sendToServer(sendTextField.getText());
-						prevMessages.saveToMemento(sendTextField.getText());
-						sendTextField.setText("");
+						client.setName(sendTextField.getText());
+
+						// waits until the client receives an message
+						while (client.getMessage().equals("")) {
+
+						}
+						if (client.getMessage().equals("False")) {
+							headerLabel.setFont(new Font("BOLD", 5, 15));
+							headerCondition = "invalidName";
+							headerLabel.setText(bundle
+									.getString(headerCondition));
+							client.stopConnection();
+						} else if (client.getMessage().equals("NoServer")) {
+							headerCondition = "noServer";
+							headerLabel.setText(bundle
+									.getString(headerCondition));
+						} else {
+							setConnectedFrame();
+							isConnected = true;
+						}
+					} else {
+						if (!sendTextField.getText().equals("")
+								&& !sendTextField.getText().equals(
+										"Write your message.")) {
+							client.sendToServer(sendTextField.getText());
+							prevMessages.saveToMemento(sendTextField.getText());
+							sendTextField.setText("");
+						}
 					}
 				}
 			}
 		});
-
-		sendTextField.setPreferredSize(new Dimension(150, 50));
-		sendTextField.setText("Write your nickname.");
 	}
 
 	/**
@@ -187,8 +196,8 @@ public class ClientWindow extends JFrame {
 		headerLabel.setSize(new Dimension(100, 20));
 		headerLabel.setFont(new Font("BOLD", 5, 20));
 		headerLabel.setForeground(Color.WHITE);
-		headerCon = "headerLabel";
-		headerLabel.setText(bundle.getString(headerCon));
+		headerCondition = "headerLabel";
+		headerLabel.setText(bundle.getString(headerCondition));
 
 		clientsArea.setEditable(false);
 		conversationArea.setEditable(false);
@@ -207,16 +216,16 @@ public class ClientWindow extends JFrame {
 
 		sendTextField.setPreferredSize(new Dimension(300, 50));
 		sendTextField.setText("Write your message.");
-		sendTextField.addKeyListener(new KeyListener(){
+		sendTextField.addKeyListener(new KeyListener() {
 			@Override
 			public void keyTyped(KeyEvent e) {
 			}
 
 			@Override
 			public void keyPressed(KeyEvent e) {
-				if(e.getKeyCode()==KeyEvent.VK_DOWN){
+				if (e.getKeyCode() == KeyEvent.VK_DOWN) {
 					String mess = prevMessages.restoreFromMemento();
-					if(!mess.equals(null)){
+					if (!mess.equals(null)) {
 						sendTextField.setText(mess);
 					}
 				}
@@ -226,7 +235,7 @@ public class ClientWindow extends JFrame {
 			public void keyReleased(KeyEvent e) {
 			}
 		});
-		
+
 		menu.setText(bundle.getString("menuName"));
 		bgButton.setText(bundle.getString("bgButton"));
 		enButton.setText(bundle.getString("enButton"));
@@ -254,7 +263,7 @@ public class ClientWindow extends JFrame {
 		menu.setText(bundle.getString("menuName"));
 		enButton.setText(bundle.getString("enButton"));
 		bgButton.setText(bundle.getString("bgButton"));
-		headerLabel.setText(bundle.getString(headerCon));
+		headerLabel.setText(bundle.getString(headerCondition));
 		stopButton.setText(bundle.getString("stopButton"));
 		connectButton.setText(bundle.getString("connectButton"));
 		setTitle(bundle.getString("frame"));

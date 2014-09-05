@@ -5,6 +5,7 @@ import java.io.PrintWriter;
 import java.net.Socket;
 import java.text.SimpleDateFormat;
 import java.util.Calendar;
+import java.util.Collections;
 import java.util.HashMap;
 import java.util.Map;
 
@@ -23,8 +24,8 @@ import org.apache.log4j.PropertyConfigurator;
 public class Helper {
 	private static final Logger LOGGER = Logger.getLogger(Helper.class);
 	private static JTextArea areaToWrite;
-	private static Map<String, Socket> clientsList = new HashMap<String, Socket>();
-	private static PrintWriter writer;
+	private static Map<String, Pair<Socket, PrintWriter>> clientsData = Collections
+			.synchronizedMap(new HashMap<String, Pair<Socket, PrintWriter>>());
 	private static Calendar cal = Calendar.getInstance();
 	private static SimpleDateFormat sdf = new SimpleDateFormat("HH:mm:ss");
 	private static StringBuilder clientsString = new StringBuilder("");
@@ -59,9 +60,17 @@ public class Helper {
 	 *            the name of the client
 	 * @param client
 	 *            its socket
+	 * @throws IOException
+	 *             when an error occurs
 	 */
-	public static void addToListWithClients(String name, Socket client) {
-		clientsList.put(name, client);
+	public static void addToListWithClients(String name, Socket client)
+			throws IOException {
+		synchronized (clientsData) {
+			clientsData
+					.put(name,
+							new Pair<Socket,PrintWriter>(client, new PrintWriter(client
+									.getOutputStream(), true)));
+		}
 	}
 
 	/**
@@ -72,16 +81,18 @@ public class Helper {
 	 * @return true if the name is correct
 	 */
 	public static boolean checkIfCorrect(String name) {
-		if (name.equals("")) {
+		synchronized (clientsData) {
+			if (name.equals("")) {
+				return false;
+			}
+			if (name.indexOf("[") != -1 || name.indexOf("]") != -1) {
+				return false;
+			}
+			if (!clientsData.containsKey(name)) {
+				return true;
+			}
 			return false;
 		}
-		if (name.indexOf("[") != -1 || name.indexOf("]") != -1) {
-			return false;
-		}
-		if (!clientsList.containsKey(name)) {
-			return true;
-		}
-		return false;
 	}
 
 	/**
@@ -90,16 +101,11 @@ public class Helper {
 	 * @param what
 	 *            the message that must be sent
 	 */
-	public static void sendToAll(String what) {
-		if (clientsList.size() != 0) {
-			for (Map.Entry<String, Socket> entry : clientsList.entrySet()) {
-				try {
-					writer = new PrintWriter(
-							entry.getValue().getOutputStream(), true);
-					writer.println(what);
-				} catch (IOException e) {
-					write("An error occured while trying to send the message to "
-							+ entry.getKey());
+	public static void sendToAll(String what){
+		synchronized (clientsData) {
+			if (clientsData.size() != 0) {
+				for (Map.Entry<String, Pair<Socket,PrintWriter> > entry : clientsData.entrySet()) {
+					entry.getValue().getValue().println(what);
 				}
 			}
 		}
@@ -122,7 +128,9 @@ public class Helper {
 	 *            the name of the client
 	 */
 	public static void removeClient(String name) {
-		clientsList.remove(name);
+		synchronized (clientsData) {
+			clientsData.remove(name);
+		}
 	}
 
 	/**
@@ -133,7 +141,7 @@ public class Helper {
 	 */
 	public static String clientsToString() {
 		clientsString.setLength(0);
-		for (String key : clientsList.keySet()) {
+		for (String key : clientsData.keySet()) {
 			clientsString.append(key + "[");
 		}
 		return clientsString.toString();
